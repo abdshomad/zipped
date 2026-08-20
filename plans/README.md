@@ -25,4 +25,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 12 [DONE]:** Autonomous Multi-Agent Battle Royale & Lossless Self-Compression Convergence ([Archive](archive/cycle-12/plan-12.1.1-battle-royale-convergence.md) | [Review](reviews/review-12.md))
 - **Cycle 13 [DONE]:** Continuous Background Evolution & Real-Time Context Streaming Optimization ([Archive](archive/cycle-13/plan-13.1.1-realtime-streaming-interceptor.md) | [Review](reviews/review-13.md))
 - **Cycle 14 [DONE]:** Autonomous Self-Refining Polyglot Interlingua & Dynamic Codec Synthesis ([Archive](archive/cycle-14/plan-14.1.1-polyglot-interlingua-synthesis.md) | [Review](reviews/review-14.md))
-- **Cycle 15 [ACTIVE]:** Autonomous Self-Synthesizing Byte-Level Neural Prefix & Extreme Entropy Compression
+- **Cycle 15 [DONE]:** Autonomous Self-Synthesizing Byte-Level Neural Prefix & Extreme Entropy Compression ([Archive](archive/cycle-15/plan-15.1.1-byte-level-neural-prefix.md) | [Review](reviews/review-15.md))
+- **Cycle 16 [ACTIVE]:** Autonomous Cross-Model Entropy Minimization & Multi-Tokenizer Auto-Evolving Arena
