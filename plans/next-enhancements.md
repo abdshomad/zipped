@@ -132,5 +132,10 @@
 - [x] `27.1.2` **Context-Topology Analyzer & Cascading Router:** Implement automatic modality classifier routing RAG to `perplexity_budget`, multi-turn histories to `token_lz77`, repositories to `central_directory`, tool outputs to `agent_cache_proxy`, and text clauses to `shrink_ray`.
 - [x] `27.1.3` **E2E Full-Corpus Poly-Modal Benchmark & SQLite Logging:** Run benchmark in `tests/test_arbiter.py` verifying $\ge 85\%$ token reduction across all 5 modalities simultaneously and record in `data/benchmarks.sqlite`.
 
+## Cycle 28: Autonomous Self-Evolving Codec Generator & In-Memory LLM Arena [DONE]
+- [x] `28.1.1` **Codec Generator Scaffolding:** Implement `AutonomousCodecGenerator` and `EvolvedCodec` in `services/researcher/codec_generator.py`.
+- [x] `28.1.2` **In-Memory Genetic Breeding Loop:** Implement mutation, crossover, and fitness scoring across multi-generational candidate populations.
+- [x] `28.1.3` **E2E 20-Generation Codec Evolution Benchmark & SQLite Logging:** Run evolution benchmark in `tests/test_codec_generator.py` verifying $\ge 80\%$ token reduction and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 28:** Autonomous Self-Evolving Codec Generator & In-Memory LLM Arena.
+- **Cycle 29:** Continuous In-Context Autonomous Learning Engine & Perpetual Codec Registry.
