@@ -97,10 +97,10 @@
 - [x] `20.1.2` **Associative Codebook Indexing & Bidirectional Expansion:** Implement attribute packing and lossless concept recovery.
 - [x] `20.1.3` **E2E Knowledge Distillation Benchmark Verification:** Run domain ontology compression benchmark in `tests/test_codebook.py` verifying $\ge 90\%$ token reduction and record in `data/benchmarks.sqlite`.
 
-## Cycle 21: Token-LZ77 Sliding Window & Relative Pointer Codec [TODO]
-- [ ] `21.1.1` **Token-LZ77 Engine Scaffolding:** Implement `TokenLZ77Codec` in `services/researcher/token_lz77.py` scanning multi-turn agent histories for repeating token sequences.
-- [ ] `21.1.2` **Relative Turn/Token Pointer Generator:** Implement pointer notation `§(-turn:len)` replacing repeated multi-token phrases with 1-token relative pointers.
-- [ ] `21.1.3` **E2E 50-Turn Context Sliding Window Benchmark & SQLite Logging:** Run benchmark in `tests/test_token_lz77.py` verifying $\ge 80\%$ token reduction across conversation histories and record in `data/benchmarks.sqlite`.
+## Cycle 21: Token-LZ77 Sliding Window & Relative Pointer Codec [DONE]
+- [x] `21.1.1` **Token-LZ77 Engine Scaffolding:** Implement `TokenLZ77Codec` in `services/researcher/token_lz77.py` scanning multi-turn agent histories for repeating token sequences.
+- [x] `21.1.2` **Relative Turn/Token Pointer Generator:** Implement pointer notation `§(-turn:len)` replacing repeated multi-token phrases with 1-token relative pointers.
+- [x] `21.1.3` **E2E 50-Turn Context Sliding Window Benchmark & SQLite Logging:** Run benchmark in `tests/test_token_lz77.py` verifying $\ge 80\%$ token reduction across conversation histories and record in `data/benchmarks.sqlite`.
 
 ## Future Cycles
 - **Cycle 22 (Plan 2):** Token-Huffman Dynamic Entropy Tree Codec (Variable-Length Prefix-Free Latin-1 Tree).
