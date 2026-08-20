@@ -72,5 +72,10 @@
 - [x] `15.1.2` **Context Prefix Cache & Dynamic Macro Synthesizer:** Implement dynamic prefix macro registry and bidirectional expander.
 - [x] `15.1.3` **E2E 50k-Token Long-Context Prefix Verification:** Run long-context prompt benchmark in `tests/test_neural_prefix.py` verifying $\ge 85\%$ token reduction and record in `data/benchmarks.sqlite`.
 
+## Cycle 16: Autonomous Cross-Model Entropy Minimization & Multi-Tokenizer Auto-Evolving Arena [DONE]
+- [x] `16.1.1` **Cross-Model Frontier Evaluator Scaffolding:** Implement `CrossModelFrontierEvaluator` in `services/researcher/cross_evaluator.py`.
+- [x] `16.1.2` **Joint Multi-Model Fitness & Pareto Frontier Optimization:** Implement cross-tokenizer loss objective function and Pareto dominance ranking.
+- [x] `16.1.3` **E2E Cross-Model Benchmark Verification:** Run multi-model optimization in `tests/test_cross_evaluator.py` verifying multi-tokenizer Pareto dominance and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 16:** Continuous Cross-Model Entropy Minimization & Multi-Tokenizer Auto-Evolving Arena.
+- **Cycle 17:** Autonomous Continuous Evolution & Distributed Token Hive-Mind Arena.
