@@ -66,28 +66,12 @@ When AIs pass long conversation histories back and forth:
 Instead of writing full sentences, **`Z-Lang`** organizes thoughts like an ultra-compact digital index card using intuitive **Role Badges**:
 
 ```mermaid
-mindmap
-  root((Z-Lang Semantic Frame))
-    + Who: The Actor
-      +kernel.py
-      +auth_service
-      +developer
-    * What: The Action / Output
-      *verify_tests
-      *patch_code
-      *commit_log
-    @ Where: Target / Location
-      @database
-      @auth.py:L42
-      @server_cluster
-    ! Why: Cause / Trigger
-      !error_alert
-      !timeout_exception
-      !failed_sub
-    ~ Collaboration: Peer Sync
-      ~qa_engineer
-      ~reviewer_agent
-      ~supervisor
+flowchart TD
+    Root["<b>Z-Lang Semantic Frame</b><br/>§Z[...]"] --> B1["<b>+ Who (Actor)</b><br/>• +kernel.py<br/>• +auth_service<br/>• +developer"]
+    Root --> B2["<b>* What (Action)</b><br/>• *verify_tests<br/>• *patch_code<br/>• *commit_log"]
+    Root --> B3["<b>@ Where (Location)</b><br/>• @database<br/>• @auth.py:L42<br/>• @server_cluster"]
+    Root --> B4["<b>! Why (Trigger)</b><br/>• !error_alert<br/>• !timeout_exception<br/>• !failed_sub"]
+    Root --> B5["<b>~ Peer Sync (Collaboration)</b><br/>• ~qa_engineer<br/>• ~reviewer_agent<br/>• ~supervisor"]
 ```
 
 | Badge | Meaning | Plain English Example |
