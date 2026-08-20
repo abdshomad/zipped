@@ -22,4 +22,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 9 [DONE]:** Autonomous Continuous Compression & Evolution Daemon ([Archive](archive/cycle-9/plan-9.1.1-context-evolution-daemon.md) | [Review](reviews/review-9.md))
 - **Cycle 10 [DONE]:** Autonomous Self-Evolving Super-Arena & Global Frontier Dashboard ([Archive](archive/cycle-10/plan-10.1.1-super-arena-dashboard.md) | [Review](reviews/review-10.md))
 - **Cycle 11 [DONE]:** Multi-Model Zero-Shot Reasoning Harness & Hyper-Frontier Evaluator ([Archive](archive/cycle-11/plan-11.1.1-zero-shot-reasoning-harness.md) | [Review](reviews/review-11.md))
-- **Cycle 12 [ACTIVE]:** Autonomous Multi-Agent Battle Royale & Lossless Self-Compression Convergence
+- **Cycle 12 [DONE]:** Autonomous Multi-Agent Battle Royale & Lossless Self-Compression Convergence ([Archive](archive/cycle-12/plan-12.1.1-battle-royale-convergence.md) | [Review](reviews/review-12.md))
+- **Cycle 13 [ACTIVE]:** Continuous Background Evolution & Real-Time Context Streaming Optimization
