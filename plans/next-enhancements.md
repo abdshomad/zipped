@@ -122,5 +122,10 @@
 - [x] `25.1.2` **Query-Salience Scorer & Dynamic Budget Allocator:** Implement query overlap scoring that preserves query-relevant evidence, compresses high-salience blocks via Z-Lang, and prunes boilerplate filler.
 - [x] `25.1.3` **E2E Multi-Document RAG & Chat Benchmark & SQLite Logging:** Run benchmark in `tests/test_perplexity_budget.py` verifying $\ge 80\%$ token reduction with 100% preservation of query-critical facts and record in `data/benchmarks.sqlite`.
 
+## Cycle 26: Content-Aware Agent Proxy & Reversible Tool-Dump Cache (Headroom & PromptIntern) [DONE]
+- [x] `26.1.1` **Agent Proxy Scaffolding & Cache Table:** Implement `AgentCacheProxy` and `CachedContextRecord` in `services/researcher/agent_cache_proxy.py`.
+- [x] `26.1.2` **Reversible CCR & Template Absorber:** Implement `compress_tool_output()` replacing verbose JSON/tracebacks with compact reference handles `§CCR[hash:summary]` and providing on-demand exact retrieval.
+- [x] `26.1.3` **E2E 50-Tool-Execution Agent Loop Benchmark & SQLite Logging:** Run benchmark in `tests/test_agent_cache_proxy.py` verifying $\ge 85\%$ token reduction across realistic coding agent sessions and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 26 (Phase 2):** Content-Aware Agent Proxy & Reversible Tool-Dump Cache (Synthesizing Headroom & PromptIntern).
+- **Cycle 27:** Cross-Model Adaptive Compression Arbiter & Dynamic Tier Synthesizer.

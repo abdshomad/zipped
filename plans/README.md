@@ -36,4 +36,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 23 [DONE]:** Central Directory Manifest & Random-Access Multi-File Index ([Archive](archive/cycle-23/plan-23.1.1-central-directory-manifest.md) | [Review](reviews/review-23.md))
 - **Cycle 24 [DONE]:** Miniz-Style Streaming On-The-Fly Chunk Pipeline ([Archive](archive/cycle-24/plan-24.1.1-miniz-streaming-chunk-pipeline.md) | [Review](reviews/review-24.md))
 - **Cycle 25 [DONE]:** Query-Aware Perplexity & Document Budgeting ([Archive](archive/cycle-25/plan-25.1.1-query-aware-perplexity-budgeting.md) | [Review](reviews/review-25.md))
-- **Cycle 26 [ACTIVE]:** Content-Aware Agent Proxy & Reversible Tool-Dump Cache (Synthesizing Headroom & PromptIntern)
+- **Cycle 26 [DONE]:** Content-Aware Agent Proxy & Reversible Tool-Dump Cache ([Archive](archive/cycle-26/plan-26.1.1-content-aware-agent-cache-proxy.md) | [Review](reviews/review-26.md))
+- **Cycle 27 [ACTIVE]:** Cross-Model Adaptive Compression Arbiter & Dynamic Tier Synthesizer
