@@ -93,3 +93,12 @@
 [submodule "ref/llm-compression/headroom"]
 	path = ref/llm-compression/headroom
 	url = https://github.com/headroomlabs-ai/headroom.git
+[submodule "ref/llm-compression/Supercompress"]
+	path = ref/llm-compression/Supercompress
+	url = https://github.com/Supercompress/Supercompress.git
+[submodule "ref/llm-compression/LLMLingua"]
+	path = ref/llm-compression/LLMLingua
+	url = https://github.com/microsoft/LLMLingua.git
+[submodule "ref/llm-compression/PromptIntern"]
+	path = ref/llm-compression/PromptIntern
+	url = https://github.com/microsoft/PromptIntern.git
