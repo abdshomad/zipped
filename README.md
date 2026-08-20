@@ -50,7 +50,22 @@ flowchart LR
 
 ## 🏗️ Architecture
 
-- **[High-Level Architecture & End-to-End Diagram](docs/architecture.md):** Visual flow of prompt ingestion, LLM provider communication, and lossless decompression.
+```mermaid
+flowchart LR
+    subgraph S1 ["Stage 1: Transparent Compression"]
+        A["👤 User Input\n(Natural English / JSON / Code)"] --> B["⚡ zipped Ingestion\n• Entropy Filter\n• Query Salience\n• Z-Lang Morph-Packing"]
+    end
+
+    subgraph S2 ["Stage 2: Dense LLM Inference"]
+        B --> C["🧠 LLM Cloud\n(OpenAI / Claude / Gemini)\n• Low KV-Cache Footprint\n• Fast TTFT & High TPS"]
+    end
+
+    subgraph S3 ["Stage 3: Lossless Expansion"]
+        C --> D["🔓 zipped Decompressor\n• CCR Cache Lookup\n• Role Badge Expansion\n• Natural Language Generation"] --> E["👤 Developer Output\n(Full Natural Response)"]
+    end
+```
+
+- **[High-Level Architecture & End-to-End Sequence Diagram](docs/architecture.md):** Complete visual flow and hop-by-hop token reduction transformation table.
 - **Cordis Microkernel Orchestration (`packages/core`, `packages/plugins-*`):** Modular TypeScript plugins for codec lifecycle, pipeline coordination, dynamic service registries, and hot reloading.
 - **Python Evaluation Sidecars (`services/evaluator`, `services/researcher`):** Multi-tokenizer benchmarking (`tiktoken`, `transformers`, `sentencepiece`) and LLM roundtrip validation.
 - **Reference Codecs & Knowledge Base (`ref/`, `autoresearch/`, `cordis/`):** Upstream reference libraries for compression algorithms and autonomous research frameworks.
