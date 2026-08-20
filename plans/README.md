@@ -30,4 +30,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 17 [DONE]:** Autonomous Continuous Evolution & Distributed Token Hive-Mind Arena ([Archive](archive/cycle-17/plan-17.1.1-distributed-token-hivemind.md) | [Review](reviews/review-17.md))
 - **Cycle 18 [DONE]:** Autonomous Universal Context Shrink-Ray & Master Compression Apex ([Archive](archive/cycle-18/plan-18.1.1-universal-shrink-ray-apex.md) | [Review](reviews/review-18.md))
 - **Cycle 19 [DONE]:** Master Autonomous Compression Kernel & Autonomous Self-Maintaining Loop ([Archive](archive/cycle-19/plan-19.1.1-self-sustaining-evolution-kernel.md) | [Review](reviews/review-19.md))
-- **Cycle 20 [ACTIVE]:** Autonomous Token-Optimized Knowledge Distillation & Latent Vector Codebook
+- **Cycle 20 [DONE]:** Autonomous Token-Optimized Knowledge Distillation & Latent Vector Codebook ([Archive](archive/cycle-20/plan-20.1.1-token-distillation-codebook.md) | [Review](reviews/review-20.md))
+- **Cycle 21 [ACTIVE]:** Autonomous Multi-Agent Swarm Dialect Synthesis & In-Memory Token Codec
