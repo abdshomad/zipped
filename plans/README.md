@@ -37,4 +37,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 24 [DONE]:** Miniz-Style Streaming On-The-Fly Chunk Pipeline ([Archive](archive/cycle-24/plan-24.1.1-miniz-streaming-chunk-pipeline.md) | [Review](reviews/review-24.md))
 - **Cycle 25 [DONE]:** Query-Aware Perplexity & Document Budgeting ([Archive](archive/cycle-25/plan-25.1.1-query-aware-perplexity-budgeting.md) | [Review](reviews/review-25.md))
 - **Cycle 26 [DONE]:** Content-Aware Agent Proxy & Reversible Tool-Dump Cache ([Archive](archive/cycle-26/plan-26.1.1-content-aware-agent-cache-proxy.md) | [Review](reviews/review-26.md))
-- **Cycle 27 [ACTIVE]:** Cross-Model Adaptive Compression Arbiter & Dynamic Tier Synthesizer
+- **Cycle 27 [DONE]:** Cross-Model Adaptive Compression Arbiter & Dynamic Tier Synthesizer ([Archive](archive/cycle-27/plan-27.1.1-adaptive-compression-arbiter.md) | [Review](reviews/review-27.md))
+- **Cycle 28 [ACTIVE]:** Autonomous Self-Evolving Codec Generator & In-Memory LLM Arena
