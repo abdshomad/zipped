@@ -117,6 +117,10 @@
 - [x] `24.1.2` **Sub-Millisecond Incremental Chunk Compressor:** Implement on-the-fly streaming pattern matching with $\le 0.05\text{ms}$ latency.
 - [x] `24.1.3` **E2E 10,000-Token Continuous Stream Benchmark & SQLite Logging:** Run streaming benchmark in `tests/test_miniz_stream.py` verifying $\ge 80\%$ token reduction and record in `data/benchmarks.sqlite`.
 
+## Cycle 25: Query-Aware Perplexity & Document Budgeting (LLMLingua + Supercompress) [TODO]
+- [ ] `25.1.1` **Perplexity & Information Entropy Scaffolding:** Implement `QueryAwareBudgetAllocator` in `services/researcher/perplexity_budget.py` calculating token-level surprisal and block entropy.
+- [ ] `25.1.2` **Query-Salience Scorer & Dynamic Budget Allocator:** Implement query overlap scoring that preserves query-relevant evidence, compresses high-salience blocks via Z-Lang, and prunes boilerplate filler.
+- [ ] `25.1.3` **E2E Multi-Document RAG & Chat Benchmark & SQLite Logging:** Run benchmark in `tests/test_perplexity_budget.py` verifying $\ge 80\%$ token reduction with 100% preservation of query-critical facts and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 25:** Perplexity-Aware Prompt Budget Allocation (Synthesizing LLMLingua & PromptIntern).
-- **Cycle 26:** Fast Streaming Semantic Deduplication & KV-Cache Interceptor (Synthesizing Headroom & Supercompress).
+- **Cycle 26 (Phase 2):** Content-Aware Agent Proxy & Reversible Tool-Dump Cache (Synthesizing Headroom & PromptIntern).
