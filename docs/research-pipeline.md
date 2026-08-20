@@ -61,3 +61,17 @@ flowchart TD
    - Execute bidirectional roundtrip decompression and zero-shot reasoning benchmarks ensuring ≥ 99% accuracy.
 5. **Pareto Optimization:**
    - Store winning representations on the Pareto frontier (Compression Ratio vs. Readability vs. LLM Task Latency).
+
+---
+
+## 3. 4-Phase Classical ZIP Translation Roadmap (Cycles 21–24)
+
+Direct algorithmic translation of `ref/` submodules into 4 planned evolution cycles:
+
+| Phase / Cycle | Classical ZIP Reference (`ref/`) | Algorithm & Mechanism | LLM Token-Space Notation |
+| :--- | :--- | :--- | :--- |
+| **Cycle 21 (Plan 1)** | `ref/r-lib-zip` & `ref/kuba-zip` | **Token-LZ77 Sliding Window & Relative Pointer Codec:** Replaces repetitive multi-turn phrases with relative turn/token offsets. | `§(-turn:len)` (e.g. `§(-2:5)` = go back 2 turns, copy 5 tokens) |
+| **Cycle 22 (Plan 2)** | `ref/kuba-zip` (miniz DEFLATE) | **Token-Huffman Dynamic Entropy Tree Codec:** Variable-length prefix-free tree mapping high-frequency expressions to verified 1-token Latin-1 symbols. | `§H{§0:phrase1;§1:phrase2}` |
+| **Cycle 23 (Plan 3)** | `ref/alexmullins-zip` (Central Directory) | **Central Directory Random-Access Manifest Codec:** Structured directory manifest allowing LLMs to index and query multi-file repositories with random-access offsets. | `§DIR[file1:offset,file2:offset]` |
+| **Cycle 24 (Plan 4)** | `ref/kuba-zip` (Streaming Buffers) | **Miniz-Style Streaming On-The-Fly Chunk Pipeline:** Real-time chunk-by-chunk context streaming compressor with sub-millisecond per-chunk latency. | Streaming Chunk Buffer |
+
