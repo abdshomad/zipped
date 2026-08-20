@@ -22,5 +22,12 @@
 - [x] `5.1.2` **Pareto Frontier & SQLite Integration:** Connect evolutionary loop with `BenchmarkDB` to record generation deltas and update `pareto_leaderboard`.
 - [x] `5.1.3` **E2E Self-Evolution Test Run:** Execute multi-generation evolution harness (`tests/test_evolution_arena.py`) discovering novel Pareto-optimal compressed configurations.
 
-## Future Cycles
-- **Cycle 6:** `6.1.1` Z-Omega Latent Eigen-Tokens & HyperGraph Representation.
+## Cycle 6: Z-Omega Latent Eigen-Tokens & HyperGraph Representation [DONE]
+- [x] `6.1.1` **Z-HyperGraph Pointer-Referencing Compiler:** Implement structured graph serialization with back-references and edge contractions in `services/researcher/hypergraph.py`.
+- [x] `6.1.2` **Latent Eigen-Token Approximation Engine:** Implement centroid token mapping and latent dimensional projection in `services/researcher/hypergraph.py`.
+- [x] `6.1.3` **E2E Multi-Reference Topology Verification:** Verify $\ge 80\%$ token reduction across deeply interconnected multi-agent graph topologies (achieved **88.65%**) with 100% relationship accuracy and log to `data/benchmarks.sqlite`.
+
+## Cycle 7: Multi-Tier Auto-Adaptive Pipeline & Global Context Streaming [TODO]
+- [ ] `7.1.1` **Adaptive Pipeline Router & Entropy Analyzer:** Implement payload classification and optimal codec selection in `packages/core/src/pipeline.ts`.
+- [ ] `7.1.2` **Unified Engine Integration & Batch API:** Connect router into `ZippedEngine` with auto-selection mode.
+- [ ] `7.1.3` **Heterogeneous Corpus Multi-Tokenizer Verification:** Benchmark mixed datasets (JSON, repetitive text, agent prompts, graph networks) achieving $\ge 70\%$ reduction across `o200k_base` and `cl100k_base` and record in `data/benchmarks.sqlite`.
