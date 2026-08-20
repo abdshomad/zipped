@@ -17,6 +17,10 @@
 - [x] `4.1.2` **Relational Frame Compression & Cordis Registration:** Implement `ZLangCodec` with relational frame serialization and register in `@zipped/core` with `CompressionLevel.Level4_LLMNative`.
 - [x] `4.1.3` **Multi-Tokenizer Benchmark & Zero-Shot Fidelity Verification:** Verify $\ge 65\%$ token reduction across `o200k_base` and `cl100k_base` (achieved **69.93%**) on multi-agent swarm pipeline corpuses with $\ge 99\%$ semantic reconstruction fidelity and log metrics to `data/benchmarks.sqlite`.
 
+## Cycle 5: Autonomous Evolutionary Arena & Multi-Tier Pareto Optimizer [DONE]
+- [x] `5.1.1` **Genetic Mutation & Crossover Operators:** Implement token representation mutation, crossover, and fitness evaluation in `services/researcher/arena.py`.
+- [x] `5.1.2` **Pareto Frontier & SQLite Integration:** Connect evolutionary loop with `BenchmarkDB` to record generation deltas and update `pareto_leaderboard`.
+- [x] `5.1.3` **E2E Self-Evolution Test Run:** Execute multi-generation evolution harness (`tests/test_evolution_arena.py`) discovering novel Pareto-optimal compressed configurations.
+
 ## Future Cycles
-- **Cycle 5:** `5.1.1` Autonomous Evolutionary Arena & Genetic Mutation (`services/researcher/arena.py`).
 - **Cycle 6:** `6.1.1` Z-Omega Latent Eigen-Tokens & HyperGraph Representation.

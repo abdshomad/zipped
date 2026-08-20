@@ -15,5 +15,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 2 [DONE]:** Level 2 Symbolic & Schema Zip Codec ([Archive](archive/cycle-2/plan-2.1.1-level2-schema-zip-codec.md) | [Review](reviews/review-2.md))
 - **Cycle 3 [DONE]:** Level 3 BPE Token Dictionary & Entropy Zip ([Archive](archive/cycle-3/plan-3.1.1-level3-bpe-token-dictionary-zip.md) | [Review](reviews/review-3.md))
 - **Cycle 4 [DONE]:** Tier 4 Z-Lang Semitic Morphology & Relational Frame Codec ([Archive](archive/cycle-4/plan-4.1.1-tier4-zlang-morphology-engine.md) | [Review](reviews/review-4.md))
-- **Cycle 5 [PLANNED]:** Autonomous Evolutionary Arena & Mutation Loop ([`plan-5.1.1`](plan-5.1.1-autonomous-evolution-arena.md))
+- **Cycle 5 [DONE]:** Autonomous Evolutionary Arena & Mutation Loop ([Archive](archive/cycle-5/plan-5.1.1-autonomous-evolution-arena.md) | [Review](reviews/review-5.md))
 - **Cycle 6 [PLANNED]:** Z-Omega Latent Eigen-Tokens & HyperGraph Representation ([`plan-6.1.1`](plan-6.1.1-zomega-latent-eigen-tokens.md))
