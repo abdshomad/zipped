@@ -128,12 +128,13 @@ class EvolutionaryArena:
         all_keys = list(set(list(parent1.mappings.keys()) + list(parent2.mappings.keys())))
         child_mappings = {}
         for k in all_keys:
-            if random.random() < 0.5:
-                if k in parent1.mappings:
-                    child_mappings[k] = parent1.mappings[k]
-            else:
-                if k in parent2.mappings:
-                    child_mappings[k] = parent2.mappings[k]
+            choices = []
+            if k in parent1.mappings:
+                choices.append(parent1.mappings[k])
+            if k in parent2.mappings:
+                choices.append(parent2.mappings[k])
+            if choices:
+                child_mappings[k] = random.choice(choices)
 
         return TokenGenome(f"{parent1.genome_id}_x_{parent2.genome_id}", child_mappings)
 

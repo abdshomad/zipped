@@ -41,7 +41,7 @@ def test_evolution_cycle_discovers_pareto_elite():
         "In distributed multi-agent systems, the authentication gateway verifies credentials "
         "and the audit logger records persistent trace logs to the storage repository."
     )
-    corpus = "\n".join([para] * 20)
+    corpus = "\n".join([para] * 30)
 
     candidate_phrases = [
         "In distributed multi-agent systems",

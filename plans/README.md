@@ -21,4 +21,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 8 [DONE]:** Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena ([Archive](archive/cycle-8/plan-8.1.1-production-cli-streaming-sdk.md) | [Review](reviews/review-8.md))
 - **Cycle 9 [DONE]:** Autonomous Continuous Compression & Evolution Daemon ([Archive](archive/cycle-9/plan-9.1.1-context-evolution-daemon.md) | [Review](reviews/review-9.md))
 - **Cycle 10 [DONE]:** Autonomous Self-Evolving Super-Arena & Global Frontier Dashboard ([Archive](archive/cycle-10/plan-10.1.1-super-arena-dashboard.md) | [Review](reviews/review-10.md))
-- **Cycle 11 [ACTIVE]:** Continuous Auto-Evolution & Pareto Hyper-Frontier Maintenance
+- **Cycle 11 [DONE]:** Multi-Model Zero-Shot Reasoning Harness & Hyper-Frontier Evaluator ([Archive](archive/cycle-11/plan-11.1.1-zero-shot-reasoning-harness.md) | [Review](reviews/review-11.md))
+- **Cycle 12 [ACTIVE]:** Autonomous Multi-Agent Battle Royale & Lossless Self-Compression Convergence
