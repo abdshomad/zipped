@@ -107,6 +107,10 @@
 - [x] `22.1.2` **Dynamic Canonical Codebook Header Generator:** Implement self-describing header serialization `§H{§0:phrase1;§1:phrase2}` and lossless roundtrip expander.
 - [x] `22.1.3` **E2E Multi-Tokenizer Huffman Entropy Benchmark & SQLite Logging:** Run benchmark in `tests/test_token_huffman.py` verifying $\ge 70\%$ token reduction across heterogeneous corpuses and record in `data/benchmarks.sqlite`.
 
+## Cycle 23: Central Directory Manifest & Random-Access Multi-File Index [DONE]
+- [x] `23.1.1` **Central Directory Scaffolding:** Implement `CentralDirectoryManifestCodec` and `DirectoryEntry` in `services/researcher/central_directory.py`.
+- [x] `23.1.2` **Random-Access File Extraction:** Implement selective file retrieval and range extraction from manifest index.
+- [x] `23.1.3` **E2E Multi-File Repository Benchmark & SQLite Logging:** Run repository index benchmark in `tests/test_central_directory.py` verifying $\ge 85\%$ token reduction on targeted file extraction and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 23 (Plan 3):** Central Directory Manifest & Random-Access Multi-File Index (`§DIR[...]`).
 - **Cycle 24 (Plan 4):** Miniz-Style Streaming On-The-Fly Chunk Pipeline (Sub-Millisecond Stream Interceptor).

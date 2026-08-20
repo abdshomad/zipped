@@ -33,4 +33,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 20 [DONE]:** Autonomous Token-Optimized Knowledge Distillation & Latent Vector Codebook ([Archive](archive/cycle-20/plan-20.1.1-token-distillation-codebook.md) | [Review](reviews/review-20.md))
 - **Cycle 21 [DONE]:** Token-LZ77 Sliding Window & Relative Pointer Codec ([Archive](archive/cycle-21/plan-21.1.1-token-lz77-sliding-window.md) | [Review](reviews/review-21.md))
 - **Cycle 22 [DONE]:** Token-Huffman Dynamic Entropy Tree Codec ([Archive](archive/cycle-22/plan-22.1.1-token-huffman-entropy-tree.md) | [Review](reviews/review-22.md))
-- **Cycle 23 [ACTIVE]:** Central Directory Manifest & Random-Access Multi-File Index (Plan 3)
+- **Cycle 23 [DONE]:** Central Directory Manifest & Random-Access Multi-File Index ([Archive](archive/cycle-23/plan-23.1.1-central-directory-manifest.md) | [Review](reviews/review-23.md))
+- **Cycle 24 [ACTIVE]:** Miniz-Style Streaming On-The-Fly Chunk Pipeline (Plan 4)
