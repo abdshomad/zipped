@@ -77,5 +77,10 @@
 - [x] `16.1.2` **Joint Multi-Model Fitness & Pareto Frontier Optimization:** Implement cross-tokenizer loss objective function and Pareto dominance ranking.
 - [x] `16.1.3` **E2E Cross-Model Benchmark Verification:** Run multi-model optimization in `tests/test_cross_evaluator.py` verifying multi-tokenizer Pareto dominance and record in `data/benchmarks.sqlite`.
 
+## Cycle 17: Autonomous Continuous Evolution & Distributed Token Hive-Mind Arena [DONE]
+- [x] `17.1.1` **Distributed Token Hive-Mind Scaffolding:** Implement `TokenHiveMind` and `SwarmAgentWorker` in `services/researcher/hivemind.py`.
+- [x] `17.1.2` **Consensus-Driven Macro Promotion & Eviction:** Implement voting / consensus mechanics for global dictionary updates.
+- [x] `17.1.3` **E2E Swarm Hive-Mind Simulation & SQLite Logging:** Run 10-agent swarm evolution in `tests/test_token_hivemind.py` verifying consensus macro discovery and record to `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 17:** Autonomous Continuous Evolution & Distributed Token Hive-Mind Arena.
+- **Cycle 18:** Autonomous Universal Context Shrink-Ray & Master Compression Apex.
