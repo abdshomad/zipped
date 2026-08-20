@@ -75,3 +75,15 @@ Direct algorithmic translation of `ref/` submodules into 4 planned evolution cyc
 | **Cycle 23 (Plan 3)** | `ref/alexmullins-zip` (Central Directory) | **Central Directory Random-Access Manifest Codec:** Structured directory manifest allowing LLMs to index and query multi-file repositories with random-access offsets. | `§DIR[file1:offset,file2:offset]` |
 | **Cycle 24 (Plan 4)** | `ref/kuba-zip` (Streaming Buffers) | **Miniz-Style Streaming On-The-Fly Chunk Pipeline:** Real-time chunk-by-chunk context streaming compressor with sub-millisecond per-chunk latency. | Streaming Chunk Buffer |
 
+---
+
+## 4. Modern LLM Compression Translation Matrix (`ref/llm-compression/`)
+
+Translation of state-of-the-art LLM prompt compression research into autonomous engine cycles:
+
+| Repository (`ref/llm-compression/`) | Core Scientific Technique | Synthesized Feature in Zipped | Target Cycle |
+| :--- | :--- | :--- | :--- |
+| **`microsoft/LLMLingua`** & **`microsoft/PromptIntern`** | Coarse-to-fine perplexity budgeting & information-theoretic token pruning | **Perplexity-Aware Token Budget Allocator:** Prunes low-information tokens across documents while preserving semantic anchors. | **Cycle 25** |
+| **`headroomlabs-ai/headroom`** & **`Supercompress/Supercompress`** | High-speed semantic caching, deduplication & extreme token packing | **Fast Streaming Semantic Deduplicator:** Near-instantaneous prompt deduplication and KV-cache footprint reduction. | **Cycle 26** |
+
+
