@@ -1,0 +1,17 @@
+{
+  "name": "zipped-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Ultra-compact, token-optimized language representations & auto-evolution engine",
+  "scripts": {
+    "build": "pnpm -r --filter './packages/*' build",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.0",
+    "vitest": "^2.1.8"
+  },
+  "packageManager": "pnpm@9.0.0"
+}

@@ -1,0 +1,3 @@
+# Current Focus & Steering Direction
+
+**Active Objective:** Maximize LLM context compression by developing and evolving **Tier 4: Z-Lang (LLM-Native Synthetic Interlingua)** alongside Levels 1–3. Z-Lang employs Semitic Root-and-Template non-concatenative morphology (1-token base lemmas + 1-token transformation sigils: Agent `+`, Locus `@`, Patient `*`, Causative `!`, Reciprocal `~`), single-token BPE relational sigils, and deterministic semantic anchor constraints to maximize token reduction (5x–20x) while strictly eliminating hallucination and maintaining >= 99% factual fidelity. Never edit submodule files in `ref/`, `cordis/`, or `autoresearch/`.

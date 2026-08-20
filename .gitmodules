@@ -1,0 +1,92 @@
+[submodule "ref/r-lib-zip"]
+	path = ref/r-lib-zip
+	url = https://github.com/r-lib/zip.git
+	branch = main
+[submodule "ref/kuba-zip"]
+	path = ref/kuba-zip
+	url = https://github.com/kuba--/zip.git
+	branch = master
+[submodule "ref/alexmullins-zip"]
+	path = ref/alexmullins-zip
+	url = https://github.com/alexmullins/zip.git
+	branch = master
+[submodule "cordis"]
+	path = cordis
+	url = https://github.com/cordiverse/cordis.git
+	branch = main
+[submodule "autoresearch/karpathy-autoresearch"]
+	path = autoresearch/karpathy-autoresearch
+	url = https://github.com/karpathy/autoresearch.git
+	branch = master
+[submodule "autoresearch/uditgoenka-autoresearch"]
+	path = autoresearch/uditgoenka-autoresearch
+	url = https://github.com/uditgoenka/autoresearch.git
+	branch = master
+[submodule "autoresearch/pi-autoresearch"]
+	path = autoresearch/pi-autoresearch
+	url = https://github.com/davebcn87/pi-autoresearch.git
+	branch = main
+[submodule "autoresearch/yibie-awesome-autoresearch"]
+	path = autoresearch/yibie-awesome-autoresearch
+	url = https://github.com/yibie/awesome-autoresearch.git
+	branch = main
+[submodule "autoresearch/autoresearch-rl"]
+	path = autoresearch/autoresearch-rl
+	url = https://github.com/vivekvkashyap/autoresearch-rl.git
+	branch = master
+[submodule "autoresearch/autoresearch-yolo"]
+	path = autoresearch/autoresearch-yolo
+	url = https://github.com/Tuesdayyy/autoresearch-yolo
+	branch = autoresearch/apr6
+[submodule "autoresearch/vision-autoresearch"]
+	path = autoresearch/vision-autoresearch
+	url = https://github.com/rycerzes/vision-autoresearch
+	branch = feat/hf-vis
+[submodule "autoresearch/auto-data-pipeline-optimization"]
+	path = autoresearch/auto-data-pipeline-optimization
+	url = https://github.com/Henry-Xiao-HX/auto-data-pipeline-optimization
+	branch = main
+[submodule "autoresearch/autoresearch-for-agents"]
+	path = autoresearch/autoresearch-for-agents
+	url = https://github.com/rungalileo/autoresearch-for-agents
+	branch = main
+[submodule "autoresearch/lazy-developer"]
+	path = autoresearch/lazy-developer
+	url = https://github.com/james-s-tayler/lazy-developer
+	branch = main
+[submodule "autoresearch/autoloop"]
+	path = autoresearch/autoloop
+	url = https://github.com/armgabrielyan/autoloop
+	branch = main
+[submodule "autoresearch/goal-md"]
+	path = autoresearch/goal-md
+	url = https://github.com/jmilinovich/goal-md
+	branch = main
+[submodule "autoresearch/autoresearch-anything"]
+	path = autoresearch/autoresearch-anything
+	url = https://github.com/grandamenium/autoresearch-anything
+	branch = main
+[submodule "autoresearch/evo"]
+	path = autoresearch/evo
+	url = https://github.com/evo-hq/evo
+	branch = main
+[submodule "autoresearch/autoresearch-prompt-optimization"]
+	path = autoresearch/autoresearch-prompt-optimization
+	url = https://github.com/az9713/autoresearch-prompt-optimization
+	branch = main
+[submodule "autoresearch/wecoai-awesome-autoresearch"]
+	path = autoresearch/wecoai-awesome-autoresearch
+	url = https://github.com/WecoAI/awesome-autoresearch
+	branch = master
+[submodule "autoresearch/deep-evolve"]
+	path = autoresearch/deep-evolve
+	url = https://github.com/Sungmin-Cho/deep-evolve
+	branch = main
+[submodule "autoresearch/autoresearch-governance"]
+	path = autoresearch/autoresearch-governance
+	url = https://github.com/from1to9/autoresearch-governance
+	branch = main
+[submodule "autoresearch/claude-autoresearch-skill"]
+	path = autoresearch/claude-autoresearch-skill
+	url = https://github.com/AlexWortega/claude-autoresearch-skill
+	branch = main
