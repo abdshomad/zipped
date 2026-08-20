@@ -90,3 +90,6 @@
 	path = autoresearch/claude-autoresearch-skill
 	url = https://github.com/AlexWortega/claude-autoresearch-skill
 	branch = main
+[submodule "ref/llm-compression/headroom"]
+	path = ref/llm-compression/headroom
+	url = https://github.com/headroomlabs-ai/headroom.git

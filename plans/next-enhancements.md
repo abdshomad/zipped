@@ -112,5 +112,11 @@
 - [x] `23.1.2` **Random-Access File Extraction:** Implement selective file retrieval and range extraction from manifest index.
 - [x] `23.1.3` **E2E Multi-File Repository Benchmark & SQLite Logging:** Run repository index benchmark in `tests/test_central_directory.py` verifying $\ge 85\%$ token reduction on targeted file extraction and record in `data/benchmarks.sqlite`.
 
+## Cycle 24: Miniz-Style Streaming On-The-Fly Chunk Pipeline [DONE]
+- [x] `24.1.1` **Miniz Streaming Buffer Scaffolding:** Implement `MinizStreamingBuffer` in `services/researcher/miniz_stream.py`.
+- [x] `24.1.2` **Sub-Millisecond Incremental Chunk Compressor:** Implement on-the-fly streaming pattern matching with $\le 0.05\text{ms}$ latency.
+- [x] `24.1.3` **E2E 10,000-Token Continuous Stream Benchmark & SQLite Logging:** Run streaming benchmark in `tests/test_miniz_stream.py` verifying $\ge 80\%$ token reduction and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 24 (Plan 4):** Miniz-Style Streaming On-The-Fly Chunk Pipeline (Sub-Millisecond Stream Interceptor).
+- **Cycle 25:** Perplexity-Aware Prompt Budget Allocation (Synthesizing LLMLingua & PromptIntern).
+- **Cycle 26:** Fast Streaming Semantic Deduplication & KV-Cache Interceptor (Synthesizing Headroom & Supercompress).

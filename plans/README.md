@@ -34,4 +34,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 21 [DONE]:** Token-LZ77 Sliding Window & Relative Pointer Codec ([Archive](archive/cycle-21/plan-21.1.1-token-lz77-sliding-window.md) | [Review](reviews/review-21.md))
 - **Cycle 22 [DONE]:** Token-Huffman Dynamic Entropy Tree Codec ([Archive](archive/cycle-22/plan-22.1.1-token-huffman-entropy-tree.md) | [Review](reviews/review-22.md))
 - **Cycle 23 [DONE]:** Central Directory Manifest & Random-Access Multi-File Index ([Archive](archive/cycle-23/plan-23.1.1-central-directory-manifest.md) | [Review](reviews/review-23.md))
-- **Cycle 24 [ACTIVE]:** Miniz-Style Streaming On-The-Fly Chunk Pipeline (Plan 4)
+- **Cycle 24 [DONE]:** Miniz-Style Streaming On-The-Fly Chunk Pipeline ([Archive](archive/cycle-24/plan-24.1.1-miniz-streaming-chunk-pipeline.md) | [Review](reviews/review-24.md))
+- **Cycle 25 [ACTIVE]:** Perplexity-Aware Prompt Budget Allocation (Synthesizing LLMLingua & PromptIntern)
