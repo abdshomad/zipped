@@ -42,7 +42,10 @@
 - [x] `9.1.2` **Background Auto-Compaction & State Pinning:** Connect multi-tier codecs for automatic historical message compression and state preservation.
 - [x] `9.1.3` **50-Turn Agent Simulation & Benchmark Verification:** Verify $\ge 80\%$ token reduction in 50-turn agent session keeping active tokens $\le 1,000$ and record in `data/benchmarks.sqlite`.
 
-## Cycle 10: Autonomous Self-Evolving Super-Arena & Global Frontier Dashboard [TODO]
-- [ ] `10.1.1` **Super-Arena Coordinator Scaffolding:** Create `services/researcher/super_arena.py` with multi-tier tournament dispatcher and ASCII/JSON telemetry reporting.
-- [ ] `10.1.2` **SQLite Metrics Rollup & Leaderboard Export:** Connect global benchmark rollup and Pareto frontier analytics in `services/evaluator/db.py`.
-- [ ] `10.1.3` **E2E Full-System Super-Arena Benchmark Verification:** Execute tournament simulation across all 9 compression tiers in `tests/test_super_arena.py`.
+## Cycle 10: Autonomous Self-Evolving Super-Arena & Global Frontier Dashboard [DONE]
+- [x] `10.1.1` **Super-Arena Coordinator Scaffolding:** Create `services/researcher/super_arena.py` with multi-tier tournament dispatcher and ASCII/JSON telemetry reporting.
+- [x] `10.1.2` **SQLite Metrics Rollup & Leaderboard Export:** Connect global benchmark rollup and Pareto frontier analytics in `services/evaluator/db.py`.
+- [x] `10.1.3` **E2E Full-System Super-Arena Benchmark Verification:** Execute tournament simulation across all 9 compression tiers in `tests/test_super_arena.py`.
+
+## Future Cycles
+- **Cycle 11:** Autonomous continuous evolution, Pareto hyper-frontier optimization, and multi-model zero-shot reasoning benchmarks.

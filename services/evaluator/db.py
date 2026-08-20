@@ -132,3 +132,26 @@ class BenchmarkDB:
             conn.commit()
 
         return results
+
+    def get_leaderboard(self) -> List[Dict[str, Any]]:
+        """Retrieve all Pareto leaderboard entries sorted by tier level."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT * FROM pareto_leaderboard ORDER BY tier_level ASC")
+            return [dict(row) for row in cursor.fetchall()]
+
+    def get_summary_stats(self) -> Dict[str, Any]:
+        """Compute aggregated compression and run statistics."""
+        with self._get_connection() as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT COUNT(*) as total_runs FROM benchmark_runs")
+            total_runs = cursor.fetchone()["total_runs"]
+
+            cursor.execute("SELECT COUNT(*) as total_metrics, AVG(reduction_pct) as avg_reduction, MAX(reduction_pct) as max_reduction FROM token_metrics")
+            row = cursor.fetchone()
+            return {
+                "total_runs": total_runs,
+                "total_metrics_evaluated": row["total_metrics"],
+                "avg_reduction_pct": round(row["avg_reduction"] or 0.0, 2),
+                "max_reduction_pct": round(row["max_reduction"] or 0.0, 2),
+            }
