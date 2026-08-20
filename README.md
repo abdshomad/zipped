@@ -50,6 +50,7 @@ flowchart LR
 
 ## 🏗️ Architecture
 
+- **[High-Level Architecture & End-to-End Diagram](docs/architecture.md):** Visual flow of prompt ingestion, LLM provider communication, and lossless decompression.
 - **Cordis Microkernel Orchestration (`packages/core`, `packages/plugins-*`):** Modular TypeScript plugins for codec lifecycle, pipeline coordination, dynamic service registries, and hot reloading.
 - **Python Evaluation Sidecars (`services/evaluator`, `services/researcher`):** Multi-tokenizer benchmarking (`tiktoken`, `transformers`, `sentencepiece`) and LLM roundtrip validation.
 - **Reference Codecs & Knowledge Base (`ref/`, `autoresearch/`, `cordis/`):** Upstream reference libraries for compression algorithms and autonomous research frameworks.
