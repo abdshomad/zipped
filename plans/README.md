@@ -39,4 +39,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 26 [DONE]:** Content-Aware Agent Proxy & Reversible Tool-Dump Cache ([Archive](archive/cycle-26/plan-26.1.1-content-aware-agent-cache-proxy.md) | [Review](reviews/review-26.md))
 - **Cycle 27 [DONE]:** Cross-Model Adaptive Compression Arbiter & Dynamic Tier Synthesizer ([Archive](archive/cycle-27/plan-27.1.1-adaptive-compression-arbiter.md) | [Review](reviews/review-27.md))
 - **Cycle 28 [DONE]:** Autonomous Self-Evolving Codec Generator & In-Memory LLM Arena ([Archive](archive/cycle-28/plan-28.1.1-autonomous-codec-generator.md) | [Review](reviews/review-28.md))
-- **Cycle 29 [ACTIVE]:** Continuous In-Context Autonomous Learning Engine & Perpetual Codec Registry
+- **Cycle 29 [DONE]:** Continuous In-Context Autonomous Learning Engine & Perpetual Codec Registry ([Archive](archive/cycle-29/plan-29.1.1-continuous-learning-engine.md) | [Review](reviews/review-29.md))
+- **Cycle 30 [ACTIVE]:** Universal Zero-Shot Enterprise Compression Gateway & Global Pareto Arena

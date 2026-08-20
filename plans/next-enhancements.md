@@ -137,5 +137,10 @@
 - [x] `28.1.2` **In-Memory Genetic Breeding Loop:** Implement mutation, crossover, and fitness scoring across multi-generational candidate populations.
 - [x] `28.1.3` **E2E 20-Generation Codec Evolution Benchmark & SQLite Logging:** Run evolution benchmark in `tests/test_codec_generator.py` verifying $\ge 80\%$ token reduction and record in `data/benchmarks.sqlite`.
 
+## Cycle 29: Continuous In-Context Autonomous Learning Engine & Perpetual Codec Registry [DONE]
+- [x] `29.1.1` **Learning Engine Scaffolding & Dynamic Codec Store:** Implement `ContinuousLearningEngine` in `services/researcher/learning_engine.py` mining repeating n-grams and syntactic patterns from live agent dialogue streams.
+- [x] `29.1.2` **Perpetual Codec Synthesis & Dynamic Registry Integration:** Automatically mints, validates lossless invariants, and registers high-gain compression rules into the persistent registry.
+- [x] `29.1.3` **E2E Continuous Agent Stream Benchmark & SQLite Logging:** Run benchmark across 100 continuous turns in `tests/test_learning_engine.py` verifying monotonic compression growth ($\ge 80\%$) with 100% losslessness.
+
 ## Future Cycles
-- **Cycle 29:** Continuous In-Context Autonomous Learning Engine & Perpetual Codec Registry.
+- **Cycle 30:** Universal Zero-Shot Enterprise Compression Gateway & Global Pareto Arena.
