@@ -1,13 +1,13 @@
 {
-  "current_cycle": 22,
-  "phase": "Phase 22: Token-Huffman Dynamic Entropy Tree Codec",
+  "current_cycle": 23,
+  "phase": "Phase 23: Central Directory Manifest & Random-Access Multi-File Index",
   "status": "active",
-  "last_updated": "2026-08-21T05:35:00+07:00",
-  "completed_cycles": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21],
+  "last_updated": "2026-08-21T05:40:00+07:00",
+  "completed_cycles": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22],
   "active_hypothesis": {
-    "id": "hypo-22.1",
-    "description": "Dynamic Token-Huffman entropy trees map high-frequency prompt tokens to single-token Latin-1 ASCII symbols, maximizing token entropy per character across arbitrary text corpuses.",
-    "target_reduction_pct": 75.0,
+    "id": "hypo-23.1",
+    "description": "Central Directory manifests index multi-file repositories into compact §DIR tables, enabling LLMs to execute random-access file queries with >= 85% token reduction.",
+    "target_reduction_pct": 85.0,
     "target_fidelity_score": 1.0
   }
 }

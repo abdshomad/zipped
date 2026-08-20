@@ -102,7 +102,11 @@
 - [x] `21.1.2` **Relative Turn/Token Pointer Generator:** Implement pointer notation `§(-turn:len)` replacing repeated multi-token phrases with 1-token relative pointers.
 - [x] `21.1.3` **E2E 50-Turn Context Sliding Window Benchmark & SQLite Logging:** Run benchmark in `tests/test_token_lz77.py` verifying $\ge 80\%$ token reduction across conversation histories and record in `data/benchmarks.sqlite`.
 
+## Cycle 22: Token-Huffman Dynamic Entropy Tree Codec [DONE]
+- [x] `22.1.1` **Token-Huffman Tree Scaffolding:** Implement `TokenHuffmanTreeCodec` in `services/researcher/token_huffman.py`.
+- [x] `22.1.2` **Dynamic Canonical Codebook Header Generator:** Implement self-describing header serialization `§H{§0:phrase1;§1:phrase2}` and lossless roundtrip expander.
+- [x] `22.1.3` **E2E Multi-Tokenizer Huffman Entropy Benchmark & SQLite Logging:** Run benchmark in `tests/test_token_huffman.py` verifying $\ge 70\%$ token reduction across heterogeneous corpuses and record in `data/benchmarks.sqlite`.
+
 ## Future Cycles
-- **Cycle 22 (Plan 2):** Token-Huffman Dynamic Entropy Tree Codec (Variable-Length Prefix-Free Latin-1 Tree).
 - **Cycle 23 (Plan 3):** Central Directory Manifest & Random-Access Multi-File Index (`§DIR[...]`).
 - **Cycle 24 (Plan 4):** Miniz-Style Streaming On-The-Fly Chunk Pipeline (Sub-Millisecond Stream Interceptor).
