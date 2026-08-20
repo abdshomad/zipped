@@ -18,4 +18,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 5 [DONE]:** Autonomous Evolutionary Arena & Mutation Loop ([Archive](archive/cycle-5/plan-5.1.1-autonomous-evolution-arena.md) | [Review](reviews/review-5.md))
 - **Cycle 6 [DONE]:** Z-Omega Latent Eigen-Tokens & HyperGraph Representation ([Archive](archive/cycle-6/plan-6.1.1-zomega-latent-eigen-tokens.md) | [Review](reviews/review-6.md))
 - **Cycle 7 [DONE]:** Multi-Tier Auto-Adaptive Pipeline & Global Context Streaming ([Archive](archive/cycle-7/plan-7.1.1-autoadaptive-pipeline-router.md) | [Review](reviews/review-7.md))
-- **Cycle 8 [PLANNED]:** Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena ([`plan-8.1.1`](plan-8.1.1-production-cli-streaming-sdk.md))
+- **Cycle 8 [DONE]:** Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena ([Archive](archive/cycle-8/plan-8.1.1-production-cli-streaming-sdk.md) | [Review](reviews/review-8.md))
+- **Cycle 9 [ACTIVE]:** Autonomous Continuous Compression & Evolution Daemon

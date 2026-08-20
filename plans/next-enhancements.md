@@ -32,7 +32,7 @@
 - [x] `7.1.2` **Unified Engine Integration & Batch API:** Connect router into `ZippedEngine` with auto-selection mode.
 - [x] `7.1.3` **Heterogeneous Corpus Multi-Tokenizer Verification:** Benchmark mixed datasets (JSON, repetitive text, agent prompts, graph networks) achieving $\ge 70\%$ reduction across `o200k_base` and `cl100k_base` (achieved **77.60%**) and record in `data/benchmarks.sqlite`.
 
-## Cycle 8: Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena [TODO]
-- [ ] `8.1.1` **Production CLI Package Scaffolding:** Create `packages/cli` with CLI commands (`compress`, `decompress`, `stats`, `bench`).
-- [ ] `8.1.2` **Cordis Engine & Multi-Tier Codec Wiring:** Wire all plugins (`@zipped/plugin-shorthand`, `@zipped/plugin-schema-zip`, `@zipped/plugin-token-zip`, `@zipped/plugin-zlang`) into CLI engine.
-- [ ] `8.1.3` **E2E CLI Execution & Throughput Verification:** Verify end-to-end CLI commands and streaming throughput with tests in `packages/cli/tests/cli.spec.ts`.
+## Cycle 8: Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena [DONE]
+- [x] `8.1.1` **Production CLI Package Scaffolding:** Create `packages/cli` with CLI commands (`compress`, `decompress`, `stats`, `bench`).
+- [x] `8.1.2` **Cordis Engine & Multi-Tier Codec Wiring:** Wire all plugins (`@zipped/plugin-shorthand`, `@zipped/plugin-schema-zip`, `@zipped/plugin-token-zip`, `@zipped/plugin-zlang`) into CLI engine.
+- [x] `8.1.3` **E2E CLI Execution & Throughput Verification:** Verify end-to-end CLI commands and streaming throughput with tests in `packages/cli/tests/cli.spec.ts`.

@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "declaration": true,
+    "composite": true,
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true
+  },
+  "references": [
+    { "path": "../core" },
+    { "path": "../plugin-shorthand" },
+    { "path": "../plugin-schema-zip" },
+    { "path": "../plugin-token-zip" },
+    { "path": "../plugin-zlang" }
+  ],
+  "include": ["src/**/*"]
+}

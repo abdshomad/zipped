@@ -196,6 +196,31 @@ importers:
         specifier: ^4.0.0-rc.8
         version: 4.0.0-rc.8(@cordisjs/plugin-include@1.0.4)(@cordisjs/plugin-loader@1.0.0-rc.5)
 
+  packages/cli:
+    dependencies:
+      '@zipped/core':
+        specifier: workspace:*
+        version: link:../core
+      '@zipped/plugin-schema-zip':
+        specifier: workspace:*
+        version: link:../plugin-schema-zip
+      '@zipped/plugin-shorthand':
+        specifier: workspace:*
+        version: link:../plugin-shorthand
+      '@zipped/plugin-token-zip':
+        specifier: workspace:*
+        version: link:../plugin-token-zip
+      '@zipped/plugin-zlang':
+        specifier: workspace:*
+        version: link:../plugin-zlang
+    devDependencies:
+      typescript:
+        specifier: ^5.7.0
+        version: 5.9.3
+      vitest:
+        specifier: ^2.1.8
+        version: 2.1.9(@types/node@22.20.1)
+
   packages/core:
     devDependencies:
       typescript:
