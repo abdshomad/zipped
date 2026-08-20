@@ -13,7 +13,21 @@ When Artificial Intelligence (AI) models communicate with one another—such as 
 
 **`zipped`** solves this by creating **`Z-Lang`**: a purpose-built, ultra-dense digital shorthand designed specifically for AI-to-AI dialogue. By stripping away word clutter and using simple role badges (Who, What, Where), `zipped` allows AI systems to transfer complex thoughts in a fraction of the space.
 
-### The Big Picture
+### The Big Picture & Effective Memory Multiplier
+
+```mermaid
+flowchart LR
+    subgraph Standard ["Standard Context Window (128k Tokens)"]
+        S1["128,000 Words\nof Raw Verbose Text\n(Capacity Reached Quickly)"]
+    end
+
+    subgraph ZippedWindow ["zipped 10x Effective Memory Multiplier"]
+        Z1["1,280,000+ Words\nof Actionable Knowledge\n(Packed via Z-Lang & Shrink-Ray)"]
+    end
+
+    Standard ==>|10x Usable Capacity Multiplier| ZippedWindow
+```
+
 * **Up to 98% Token Reduction:** Shrinks massive paragraphs into concise, single-line tags.
 * **10x Memory Expansion:** A standard AI memory limit of 128,000 words functions as if it holds **over 1,000,000 words** of actionable knowledge.
 * **Zero Confusion / Zero Hallucination:** Clear, deterministic rules ensure the AI never loses meaning, facts, or technical accuracy.
@@ -25,20 +39,19 @@ When Artificial Intelligence (AI) models communicate with one another—such as 
 
 Every word, space, and punctuation mark sent to an AI model costs **tokens** (the basic units AI uses to read text). You pay for every token, and each AI has a strict maximum token limit.
 
-```
-+-----------------------------------------------------------------------------------------+
-| 🚫 What AI usually sends (Costly & Wordy — 100 tokens):                                 |
-|                                                                                         |
-| "The security authentication module has verified the credentials of the user and then   |
-| the centralized audit logger recorded the persistent transaction log into the database."|
-+-----------------------------------------------------------------------------------------+
-                                             │
-                                             ▼ (zipped Transformation)
-+-----------------------------------------------------------------------------------------+
-| ⚡ What zipped sends (Fast & Dense — 18 tokens / 82% Savings):                           |
-|                                                                                         |
-| §Z[+auth *verify @user +audit *log @database]                                           |
-+-----------------------------------------------------------------------------------------+
+```mermaid
+flowchart LR
+    subgraph Traditional ["🚫 Traditional LLM Traffic (100 Tokens / $ High Cost)"]
+        direction TB
+        T1["'The security authentication module has verified the credentials\nof the user and then the centralized audit logger recorded\nthe persistent transaction log into the database.'"]
+    end
+
+    subgraph ZippedRoute ["⚡ zipped Z-Lang Route (18 Tokens / 82% Savings)"]
+        direction TB
+        Z1["§Z[+auth *verify @user +audit *log @database]"]
+    end
+
+    Traditional -->|zipped Transformation| ZippedRoute
 ```
 
 When AIs pass long conversation histories back and forth:
@@ -51,6 +64,31 @@ When AIs pass long conversation histories back and forth:
 ## How It Works: The "Role Badge" System
 
 Instead of writing full sentences, **`Z-Lang`** organizes thoughts like an ultra-compact digital index card using intuitive **Role Badges**:
+
+```mermaid
+mindmap
+  root((Z-Lang Semantic Frame))
+    + Who: The Actor
+      +kernel.py
+      +auth_service
+      +developer
+    * What: The Action / Output
+      *verify_tests
+      *patch_code
+      *commit_log
+    @ Where: Target / Location
+      @database
+      @auth.py:L42
+      @server_cluster
+    ! Why: Cause / Trigger
+      !error_alert
+      !timeout_exception
+      !failed_sub
+    ~ Collaboration: Peer Sync
+      ~qa_engineer
+      ~reviewer_agent
+      ~supervisor
+```
 
 | Badge | Meaning | Plain English Example |
 | :---: | :--- | :--- |
@@ -117,14 +155,36 @@ Benchmarked across industry-standard AI engines (GPT-4o, Claude 3.5, Llama 3):
 
 ---
 
-## Seamless Human Experience
+## Multi-Agent Swarm Collaboration Lifecycle
 
-You never have to read raw shorthand unless you want to. `zipped` acts as a smart translation layer:
+```mermaid
+sequenceDiagram
+    autonumber
+    actor User as 👤 Human User
+    participant ZProxy as ⚡ zipped Proxy
+    participant Agent1 as 🤖 Planner Agent
+    participant Agent2 as 🤖 Coder Agent
+    participant Agent3 as 🤖 Reviewer Agent
 
-```
-[Human User] ──(English)──► [zipped Translator] ──(Z-Lang)──► [AI Swarm Network]
-                                                                      │
-[Human User] ◄──(English)── [zipped Translator] ◄──(Z-Lang)───────────┘
+    User->>ZProxy: 1. "Fix database timeout in auth service" (Plain English)
+    activate ZProxy
+    ZProxy->>Agent1: 2. Transmits Z-Lang Task: §Z[+user *fix @db_timeout]
+    deactivate ZProxy
+
+    activate Agent1
+    Note over Agent1, Agent2: Machine-to-Machine Swarm Traffic (Zero Fluff, 85% Token Savings)
+    Agent1->>Agent2: 3. §Z[+plan *inspect @auth/pool.py]
+    deactivate Agent1
+    activate Agent2
+    Agent2->>Agent3: 4. §Z[+patch *expand_pool @L120 ~review]
+    deactivate Agent2
+    activate Agent3
+    Agent3-->>ZProxy: 5. §Z[+qa *approved @L120 !verified]
+    deactivate Agent3
+
+    activate ZProxy
+    ZProxy->>User: 6. "Successfully updated connection pool size in auth/pool.py; verified." (Plain English)
+    deactivate ZProxy
 ```
 
 * **When you speak:** `zipped` packages your prompt into high-efficiency shorthand for the AI.
