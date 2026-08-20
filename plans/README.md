@@ -24,4 +24,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 11 [DONE]:** Multi-Model Zero-Shot Reasoning Harness & Hyper-Frontier Evaluator ([Archive](archive/cycle-11/plan-11.1.1-zero-shot-reasoning-harness.md) | [Review](reviews/review-11.md))
 - **Cycle 12 [DONE]:** Autonomous Multi-Agent Battle Royale & Lossless Self-Compression Convergence ([Archive](archive/cycle-12/plan-12.1.1-battle-royale-convergence.md) | [Review](reviews/review-12.md))
 - **Cycle 13 [DONE]:** Continuous Background Evolution & Real-Time Context Streaming Optimization ([Archive](archive/cycle-13/plan-13.1.1-realtime-streaming-interceptor.md) | [Review](reviews/review-13.md))
-- **Cycle 14 [ACTIVE]:** Autonomous Self-Refining Polyglot Interlingua & Dynamic Codec Synthesis
+- **Cycle 14 [DONE]:** Autonomous Self-Refining Polyglot Interlingua & Dynamic Codec Synthesis ([Archive](archive/cycle-14/plan-14.1.1-polyglot-interlingua-synthesis.md) | [Review](reviews/review-14.md))
+- **Cycle 15 [ACTIVE]:** Autonomous Self-Synthesizing Byte-Level Neural Prefix & Extreme Entropy Compression
