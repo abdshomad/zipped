@@ -27,7 +27,12 @@
 - [x] `6.1.2` **Latent Eigen-Token Approximation Engine:** Implement centroid token mapping and latent dimensional projection in `services/researcher/hypergraph.py`.
 - [x] `6.1.3` **E2E Multi-Reference Topology Verification:** Verify $\ge 80\%$ token reduction across deeply interconnected multi-agent graph topologies (achieved **88.65%**) with 100% relationship accuracy and log to `data/benchmarks.sqlite`.
 
-## Cycle 7: Multi-Tier Auto-Adaptive Pipeline & Global Context Streaming [TODO]
-- [ ] `7.1.1` **Adaptive Pipeline Router & Entropy Analyzer:** Implement payload classification and optimal codec selection in `packages/core/src/pipeline.ts`.
-- [ ] `7.1.2` **Unified Engine Integration & Batch API:** Connect router into `ZippedEngine` with auto-selection mode.
-- [ ] `7.1.3` **Heterogeneous Corpus Multi-Tokenizer Verification:** Benchmark mixed datasets (JSON, repetitive text, agent prompts, graph networks) achieving $\ge 70\%$ reduction across `o200k_base` and `cl100k_base` and record in `data/benchmarks.sqlite`.
+## Cycle 7: Multi-Tier Auto-Adaptive Pipeline & Global Context Streaming [DONE]
+- [x] `7.1.1` **Adaptive Pipeline Router & Entropy Analyzer:** Implement payload classification and optimal codec selection in `packages/core/src/pipeline.ts`.
+- [x] `7.1.2` **Unified Engine Integration & Batch API:** Connect router into `ZippedEngine` with auto-selection mode.
+- [x] `7.1.3` **Heterogeneous Corpus Multi-Tokenizer Verification:** Benchmark mixed datasets (JSON, repetitive text, agent prompts, graph networks) achieving $\ge 70\%$ reduction across `o200k_base` and `cl100k_base` (achieved **77.60%**) and record in `data/benchmarks.sqlite`.
+
+## Cycle 8: Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena [TODO]
+- [ ] `8.1.1` **Production CLI Package Scaffolding:** Create `packages/cli` with CLI commands (`compress`, `decompress`, `stats`, `bench`).
+- [ ] `8.1.2` **Cordis Engine & Multi-Tier Codec Wiring:** Wire all plugins (`@zipped/plugin-shorthand`, `@zipped/plugin-schema-zip`, `@zipped/plugin-token-zip`, `@zipped/plugin-zlang`) into CLI engine.
+- [ ] `8.1.3` **E2E CLI Execution & Throughput Verification:** Verify end-to-end CLI commands and streaming throughput with tests in `packages/cli/tests/cli.spec.ts`.

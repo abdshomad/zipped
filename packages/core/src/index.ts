@@ -1,17 +1,32 @@
 export * from './types.js';
 export * from './registry.js';
+export * from './pipeline.js';
 
 import { CodecRegistry } from './registry.js';
+import { AdaptivePipelineRouter } from './pipeline.js';
 import { CompressionLevel, CompressionResult } from './types.js';
 
 /**
- * ZippedEngine coordinate dynamic codec registration and multi-tier pipeline execution.
+ * ZippedEngine coordinates dynamic codec registration, multi-tier pipeline execution,
+ * and intelligent auto-adaptive routing.
  */
 export class ZippedEngine {
   public registry: CodecRegistry;
+  public router: AdaptivePipelineRouter;
 
   constructor() {
     this.registry = new CodecRegistry();
+    this.router = new AdaptivePipelineRouter(this.registry);
+  }
+
+  /**
+   * Auto-selects the optimal compression tier based on payload semantics and entropy.
+   */
+  public async autoCompress(
+    input: string,
+    options?: Record<string, unknown>
+  ): Promise<CompressionResult> {
+    return await this.router.routeAndCompress(input, options);
   }
 
   /**
@@ -30,20 +45,8 @@ export class ZippedEngine {
       return await codec.compress(input, options);
     }
 
-    // Default to first available codec or pass-through
-    const codecs = this.registry.list();
-    if (codecs.length === 0) {
-      return {
-        compressed: input,
-        originalLength: input.length,
-        compressedLength: input.length,
-        ratio: 1.0,
-        level: CompressionLevel.Level1_Natural,
-        codecId: 'passthrough',
-      };
-    }
-
-    return await codecs[0].compress(input, options);
+    // Use auto-router if no specific codec requested
+    return await this.autoCompress(input, options);
   }
 
   /**

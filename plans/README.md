@@ -17,4 +17,5 @@ This directory tracks the evolutionary cycles, hypothesis sub-plans, reviews, an
 - **Cycle 4 [DONE]:** Tier 4 Z-Lang Semitic Morphology & Relational Frame Codec ([Archive](archive/cycle-4/plan-4.1.1-tier4-zlang-morphology-engine.md) | [Review](reviews/review-4.md))
 - **Cycle 5 [DONE]:** Autonomous Evolutionary Arena & Mutation Loop ([Archive](archive/cycle-5/plan-5.1.1-autonomous-evolution-arena.md) | [Review](reviews/review-5.md))
 - **Cycle 6 [DONE]:** Z-Omega Latent Eigen-Tokens & HyperGraph Representation ([Archive](archive/cycle-6/plan-6.1.1-zomega-latent-eigen-tokens.md) | [Review](reviews/review-6.md))
-- **Cycle 7 [PLANNED]:** Multi-Tier Auto-Adaptive Pipeline & Global Context Streaming ([`plan-7.1.1`](plan-7.1.1-autoadaptive-pipeline-router.md))
+- **Cycle 7 [DONE]:** Multi-Tier Auto-Adaptive Pipeline & Global Context Streaming ([Archive](archive/cycle-7/plan-7.1.1-autoadaptive-pipeline-router.md) | [Review](reviews/review-7.md))
+- **Cycle 8 [PLANNED]:** Production CLI / Multi-Language SDK & Real-Time Context Streaming Arena ([`plan-8.1.1`](plan-8.1.1-production-cli-streaming-sdk.md))
